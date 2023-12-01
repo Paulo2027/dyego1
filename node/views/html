@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Meus Produtos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Meus Produtos</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nome do Produto</th>
+          <th>Nome do Fornecedor</th>
+          <th>Data da Compra</th>
+          <th>Valor de Compra</th>
+          <th>Valor de Venda</th>
+          <th>Categoria</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each produtos}}
+        <tr>
+          <td>{{nome}}</td>
